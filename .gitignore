@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+derby_db/**
+/derby_db/log/
+/derby_db/seg0/
+/derby_db/tmp/
+/derby_db/db.lck
+/derby_db/README_DO_NOT_TOUCH_FILES.txt
+/derby_db/service.properties
