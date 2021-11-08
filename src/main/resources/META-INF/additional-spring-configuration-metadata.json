@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "SPOONACULAR_API_KEY",
+      "type": "java.lang.String",
+      "description": "Description for SPOONACULAR_API_KEY."
+  }
+] }

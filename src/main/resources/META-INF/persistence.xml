@@ -1,0 +1,13 @@
+<persistence-unit name="com.michaelwhite.transport4.tacorecipeapi.model">
+    <description>EntityManager</description>
+    <class>com.michaelwhite.transport4.tacorecipeapi.model.Ingredient</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+        <property name="spring.jpa.hibernate.ddl-auto" value="none"/>
+        <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+        <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory:C:/Users/michael/IdeaProjects/taco-recipe-api/derby_db"/>
+        <property name="javax.persistence.jdbc.user" value="sa"/>
+        <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+</persistence-unit>
